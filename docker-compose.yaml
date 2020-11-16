@@ -3,7 +3,7 @@ version: "3.7"
 services:
   api_v1:
     environment:
-    - MODULE_NAME=MySQL-AutoXtraBackup.api.main
+    - MODULE_NAME=MySQL-AutoXtraBackup.app.main
     build:
       context: .
       dockerfile: Dockerfile
